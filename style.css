@@ -207,15 +207,15 @@ header li {
 }
 
 .benefit-delivery::before {
-    background-image: url("/img/delivery.png");
+    background-image: url("img/delivery.png");
 }
 
 .benefit-quality::before {
-    background-image: url("/img/qulaity.png");
+    background-image: url("img/qulaity.png");
 }
 
 .benefit-photo::before {
-    background-image: url("/img/photos.png");
+    background-image: url("img/photos.png");
 }
 
 section>*>h2 {
@@ -287,7 +287,7 @@ section>*>h2 {
 
 .arrow button {
     background-color: transparent;
-    background-image: url("/img/arrow-l.png");
+    background-image: url("img/arrow-l.png");
     background-repeat: no-repeat;
     background-position: 50%;
     font-size: 0;
@@ -304,7 +304,7 @@ section>*>h2 {
 }
 
 .arrow-right button {
-    background-image: url("/img/arrow-r.png");
+    background-image: url("img/arrow-r.png");
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -424,7 +424,7 @@ section>*>h2 {
     content: '';
     width: 285px;
     display: block;
-    background-image: url('/img/catalog.png');
+    background-image: url('img/catalog.png');
     background-repeat: no-repeat;
     background-position: 50%;
     height: 52px;
@@ -434,7 +434,7 @@ section>*>h2 {
     content: '';
     width: 285px;
     display: block;
-    background-image: url('/img/people.png');
+    background-image: url('img/people.png');
     background-repeat: no-repeat;
     background-position: 50%;
     height: 52px;
@@ -444,7 +444,7 @@ section>*>h2 {
     content: '';
     width: 285px;
     display: block;
-    background-image: url('/img/pay.svg');
+    background-image: url('img/pay.svg');
     background-repeat: no-repeat;
     background-position: 50%;
     height: 52px;
@@ -454,7 +454,7 @@ section>*>h2 {
     content: '';
     width: 285px;
     display: block;
-    background-image: url('/img/delivery.png');
+    background-image: url('img/delivery.png');
     background-repeat: no-repeat;
     background-position: 50%;
     height: 52px;
@@ -493,7 +493,7 @@ section>*>h2 {
 .social-inst a {
     display: block;
     font-size: 0;
-    background-image: url('/img/instagram_icon.svg');
+    background-image: url('img/instagram_icon.svg');
     background-repeat: no-repeat;
     background-position: 50%;
     height: 20px;
@@ -503,7 +503,7 @@ section>*>h2 {
 .social-fb a {
     display: block;
     font-size: 0;
-    background-image: url('/img/facebook_icon.svg');
+    background-image: url('img/facebook_icon.svg');
     background-repeat: no-repeat;
     background-position: 50%;
     height: 20px;
@@ -513,7 +513,7 @@ section>*>h2 {
 .social-tw a {
     display: block;
     font-size: 0;
-    background-image: url('/img/twitter_icon.svg');
+    background-image: url('img/twitter_icon.svg');
     background-repeat: no-repeat;
     background-position: 50%;
     height: 20px;
@@ -523,7 +523,7 @@ section>*>h2 {
 footer .social-inst a {
     display: block;
     font-size: 0;
-    background-image: url('/img/instagram_icon-w.svg');
+    background-image: url('img/instagram_icon-w.svg');
     background-repeat: no-repeat;
     background-position: 50%;
     height: 20px;
@@ -533,7 +533,7 @@ footer .social-inst a {
 footer .social-fb a {
     display: block;
     font-size: 0;
-    background-image: url('/img/facebook_icon-w.svg');
+    background-image: url('img/facebook_icon-w.svg');
     background-repeat: no-repeat;
     background-position: 50%;
     height: 20px;
@@ -543,7 +543,7 @@ footer .social-fb a {
 footer .social-tw a {
     display: block;
     font-size: 0;
-    background-image: url('/img/twitter_icon-w.svg');
+    background-image: url('img/twitter_icon-w.svg');
     background-repeat: no-repeat;
     background-position: 50%;
     height: 20px;
@@ -625,7 +625,7 @@ footer .social-tw a {
 
 .contacts {
     width: 1440px;
-    background-image: url('/img/map.png');
+    background-image: url('img/map.png');
     height: 644.1px;
     margin-top: 80px;
 }
@@ -689,4 +689,8 @@ footer ul:not([class]) {
 
 .footer-social-buttons * {
     margin: 0;
+}
+
+footer a {
+    color: var(--white);
 }
