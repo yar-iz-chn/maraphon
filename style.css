@@ -295,7 +295,7 @@ section>*>h2 {
     width: 52px;
     padding: 0;
     height: 15px;
-    transition: all .2s;
+    transition: opacity .2s;
 }
 
 .arrow button:hover {
@@ -314,10 +314,6 @@ section>*>h2 {
     padding: 0;
     height: 16px;
     margin-bottom: 72px;
-}
-
-.arrow-right button:hover {
-    filter: drop-shadow(9px 0px 0px #000);
 }
 
 .popular-nav {
